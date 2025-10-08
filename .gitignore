@@ -1,0 +1,103 @@
+# ======================
+# Flutter / Dart / Pub
+# ======================
+.dart_tool/
+.packages
+.buildlog/
+.build/
+build/
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.generated/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# ======================
+# IDEs and Editors
+# ======================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.atom/
+.history/
+.svn/
+.DS_Store
+*.swp
+*.class
+*.pyc
+*.log
+
+# ======================
+# Android Related
+# ======================
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+android/app/release
+android/app/profile
+android/app/debug
+
+# Firebase / Google Services
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Secrets
+android/app/client_secret_*.json
+
+# ======================
+# iOS / macOS Related
+# ======================
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Flutter.podspec
+
+# ======================
+# Env and Secrets
+# ======================
+.env
+.env.*
+*.env
+*.secret
+*.pem
+*.crt
+*.key
+*.p12
+
+# ======================
+# Miscellaneous
+# ======================
+*.tmp
+*.bak
+*.old
+migrate_working_dir/
+*.symbols
+app.*.symbols
+app.*.map.json
+
+# ======================
+# Fastlane / CocoaPods / Xcode
+# ======================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+
+# ======================
+# VS Code (optional)
+# Uncomment if you don’t want VSCode configs pushed
+# .vscode/
